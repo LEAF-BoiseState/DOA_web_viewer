@@ -1,0 +1,23 @@
+netcdf May_AVA_Anomalies_d02 {
+dimensions:
+	dim_0 = 31 ;
+	dim_1 = 327 ;
+	dim_2 = 348 ;
+variables:
+	float DPRCP(dim_0, dim_1, dim_2) ;
+		DPRCP:_FillValue = NaNf ;
+	float DSNOW(dim_0, dim_1, dim_2) ;
+		DSNOW:_FillValue = NaNf ;
+	float FROSTD(dim_0, dim_1, dim_2) ;
+		FROSTD:_FillValue = NaNf ;
+	float FROSTH(dim_0, dim_1, dim_2) ;
+		FROSTH:_FillValue = NaNf ;
+	float GDD(dim_0, dim_1, dim_2) ;
+		GDD:_FillValue = NaNf ;
+	float TMEAN(dim_0, dim_1, dim_2) ;
+		TMEAN:_FillValue = NaNf ;
+	float TMIN(dim_0, dim_1, dim_2) ;
+		TMIN:_FillValue = NaNf ;
+	float TMAX(dim_0, dim_1, dim_2) ;
+		TMAX:_FillValue = NaNf ;
+}
